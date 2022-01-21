@@ -1,0 +1,876 @@
+{
+  error: TypeError: Cannot read properties of undefined (reading 'FailureMessage')
+      at new SpErrorHandler (/home/skein/Desktop/project/utils/error-handler.js:75:26)
+      at userLogin (/home/skein/Desktop/project/controllers/user.controller.js:191:7)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'FailureMessage')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'FailureMessage')\n" +
+    '    at new SpErrorHandler (/home/skein/Desktop/project/utils/error-handler.js:75:26)\n' +
+    '    at userLogin (/home/skein/Desktop/project/controllers/user.controller.js:191:7)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'FailureMessage')\n" +
+    '    at new SpErrorHandler (/home/skein/Desktop/project/utils/error-handler.js:75:26)\n' +
+    '    at userLogin (/home/skein/Desktop/project/controllers/user.controller.js:191:7)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Dec 29 2021 19:02:55 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15791,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/skein/Desktop/project',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/bin/node', '/home/skein/Desktop/project/bin/www' ],
+    memoryUsage: {
+      rss: 58904576,
+      heapTotal: 17100800,
+      heapUsed: 15289312,
+      external: 1039436,
+      arrayBuffers: 57669
+    }
+  },
+  os: { loadavg: [ 0.49, 0.75, 0.91 ], uptime: 17295.42 },
+  trace: [
+    {
+      column: 26,
+      file: '/home/skein/Desktop/project/utils/error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: '/home/skein/Desktop/project/controllers/user.controller.js',
+      function: 'userLogin',
+      line: 191,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2021-12-29T13:32:55.776Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'FailureMessage')
+      at new SpErrorHandler (/home/skein/Desktop/project/utils/error-handler.js:75:26)
+      at userLogin (/home/skein/Desktop/project/controllers/user.controller.js:191:7)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'FailureMessage')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'FailureMessage')\n" +
+    '    at new SpErrorHandler (/home/skein/Desktop/project/utils/error-handler.js:75:26)\n' +
+    '    at userLogin (/home/skein/Desktop/project/controllers/user.controller.js:191:7)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'FailureMessage')\n" +
+    '    at new SpErrorHandler (/home/skein/Desktop/project/utils/error-handler.js:75:26)\n' +
+    '    at userLogin (/home/skein/Desktop/project/controllers/user.controller.js:191:7)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Dec 29 2021 19:06:03 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16098,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/skein/Desktop/project',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/bin/node', '/home/skein/Desktop/project/bin/www' ],
+    memoryUsage: {
+      rss: 58535936,
+      heapTotal: 16838656,
+      heapUsed: 15611200,
+      external: 1125370,
+      arrayBuffers: 67751
+    }
+  },
+  os: { loadavg: [ 0.53, 0.64, 0.83 ], uptime: 17482.92 },
+  trace: [
+    {
+      column: 26,
+      file: '/home/skein/Desktop/project/utils/error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: '/home/skein/Desktop/project/controllers/user.controller.js',
+      function: 'userLogin',
+      line: 191,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2021-12-29T13:36:03.275Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'FailureMessage')
+      at new SpErrorHandler (/home/skein/Desktop/project/utils/error-handler.js:75:26)
+      at userLogin (/home/skein/Desktop/project/controllers/user.controller.js:191:7)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'FailureMessage')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'FailureMessage')\n" +
+    '    at new SpErrorHandler (/home/skein/Desktop/project/utils/error-handler.js:75:26)\n' +
+    '    at userLogin (/home/skein/Desktop/project/controllers/user.controller.js:191:7)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'FailureMessage')\n" +
+    '    at new SpErrorHandler (/home/skein/Desktop/project/utils/error-handler.js:75:26)\n' +
+    '    at userLogin (/home/skein/Desktop/project/controllers/user.controller.js:191:7)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Dec 29 2021 19:06:51 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16287,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/skein/Desktop/project',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/bin/node', '/home/skein/Desktop/project/bin/www' ],
+    memoryUsage: {
+      rss: 59736064,
+      heapTotal: 17625088,
+      heapUsed: 15649360,
+      external: 1125370,
+      arrayBuffers: 67751
+    }
+  },
+  os: { loadavg: [ 1.29, 0.8, 0.87 ], uptime: 17531.53 },
+  trace: [
+    {
+      column: 26,
+      file: '/home/skein/Desktop/project/utils/error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: '/home/skein/Desktop/project/controllers/user.controller.js',
+      function: 'userLogin',
+      line: 191,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2021-12-29T13:36:51.888Z'
+}
+{
+  error: /home/skein/Desktop/project/utils/Roles.js:1
+  export const Role = {
+  ^^^^^^
+  
+  SyntaxError: Unexpected token 'export'
+      at Object.compileFunction (node:vm:352:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+      at Module._compile (node:internal/modules/cjs/loader:1065:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (/home/skein/Desktop/project/routes/user.routes.js:5:15)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token 'export'\n" +
+    '/home/skein/Desktop/project/utils/Roles.js:1\n' +
+    'export const Role = {\n' +
+    '^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'export'\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/skein/Desktop/project/routes/user.routes.js:5:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  stack: '/home/skein/Desktop/project/utils/Roles.js:1\n' +
+    'export const Role = {\n' +
+    '^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'export'\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/skein/Desktop/project/routes/user.routes.js:5:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  exception: true,
+  date: 'Thu Dec 30 2021 11:58:10 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6700,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/skein/Desktop/project',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/bin/node', '/home/skein/Desktop/project/bin/www' ],
+    memoryUsage: {
+      rss: 62001152,
+      heapTotal: 23130112,
+      heapUsed: 15605720,
+      external: 3541257,
+      arrayBuffers: 264002
+    }
+  },
+  os: { loadavg: [ 0.68, 0.81, 0.57 ], uptime: 7780.45 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 352,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1031,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1065,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/home/skein/Desktop/project/routes/user.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2021-12-30T06:28:10.331Z'
+}
+{
+  error: /home/skein/Desktop/project/utils/Roles.js:1
+  export const Role = {
+  ^^^^^^
+  
+  SyntaxError: Unexpected token 'export'
+      at Object.compileFunction (node:vm:352:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+      at Module._compile (node:internal/modules/cjs/loader:1065:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (/home/skein/Desktop/project/routes/user.routes.js:5:14)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token 'export'\n" +
+    '/home/skein/Desktop/project/utils/Roles.js:1\n' +
+    'export const Role = {\n' +
+    '^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'export'\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/skein/Desktop/project/routes/user.routes.js:5:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  stack: '/home/skein/Desktop/project/utils/Roles.js:1\n' +
+    'export const Role = {\n' +
+    '^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'export'\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/skein/Desktop/project/routes/user.routes.js:5:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  exception: true,
+  date: 'Thu Dec 30 2021 11:59:13 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7078,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/skein/Desktop/project',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/bin/node', '/home/skein/Desktop/project/bin/www' ],
+    memoryUsage: {
+      rss: 63713280,
+      heapTotal: 23130112,
+      heapUsed: 15695040,
+      external: 3541257,
+      arrayBuffers: 245286
+    }
+  },
+  os: { loadavg: [ 2.04, 1.17, 0.71 ], uptime: 7843.79 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 352,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1031,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1065,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/skein/Desktop/project/routes/user.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2021-12-30T06:29:13.672Z'
+}
+{
+  error: Error: Cannot find module '../utils/roles'
+  Require stack:
+  - /home/skein/Desktop/project/routes/user.routes.js
+  - /home/skein/Desktop/project/routes/index.routes.js
+  - /home/skein/Desktop/project/app.js
+  - /home/skein/Desktop/project/bin/www
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (/home/skein/Desktop/project/routes/user.routes.js:5:19)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/skein/Desktop/project/routes/user.routes.js',
+      '/home/skein/Desktop/project/routes/index.routes.js',
+      '/home/skein/Desktop/project/app.js',
+      '/home/skein/Desktop/project/bin/www'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../utils/roles'\n" +
+    'Require stack:\n' +
+    '- /home/skein/Desktop/project/routes/user.routes.js\n' +
+    '- /home/skein/Desktop/project/routes/index.routes.js\n' +
+    '- /home/skein/Desktop/project/app.js\n' +
+    '- /home/skein/Desktop/project/bin/www\n' +
+    "Error: Cannot find module '../utils/roles'\n" +
+    'Require stack:\n' +
+    '- /home/skein/Desktop/project/routes/user.routes.js\n' +
+    '- /home/skein/Desktop/project/routes/index.routes.js\n' +
+    '- /home/skein/Desktop/project/app.js\n' +
+    '- /home/skein/Desktop/project/bin/www\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/skein/Desktop/project/routes/user.routes.js:5:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  stack: "Error: Cannot find module '../utils/roles'\n" +
+    'Require stack:\n' +
+    '- /home/skein/Desktop/project/routes/user.routes.js\n' +
+    '- /home/skein/Desktop/project/routes/index.routes.js\n' +
+    '- /home/skein/Desktop/project/app.js\n' +
+    '- /home/skein/Desktop/project/bin/www\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/skein/Desktop/project/routes/user.routes.js:5:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  exception: true,
+  date: 'Thu Dec 30 2021 12:00:07 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7163,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/skein/Desktop/project',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/bin/node', '/home/skein/Desktop/project/bin/www' ],
+    memoryUsage: {
+      rss: 63905792,
+      heapTotal: 23392256,
+      heapUsed: 15653632,
+      external: 3541257,
+      arrayBuffers: 264002
+    }
+  },
+  os: { loadavg: [ 1.81, 1.21, 0.75 ], uptime: 7897.7 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/home/skein/Desktop/project/routes/user.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2021-12-30T06:30:07.580Z'
+}
+{
+  error: /home/skein/Desktop/project/utils/Roles.js:1
+  export const Role = {
+  ^^^^^^
+  
+  SyntaxError: Unexpected token 'export'
+      at Object.compileFunction (node:vm:352:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+      at Module._compile (node:internal/modules/cjs/loader:1065:27)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (/home/skein/Desktop/project/routes/user.routes.js:5:19)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token 'export'\n" +
+    '/home/skein/Desktop/project/utils/Roles.js:1\n' +
+    'export const Role = {\n' +
+    '^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'export'\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/skein/Desktop/project/routes/user.routes.js:5:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  stack: '/home/skein/Desktop/project/utils/Roles.js:1\n' +
+    'export const Role = {\n' +
+    '^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'export'\n" +
+    '    at Object.compileFunction (node:vm:352:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1031:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1065:27)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/home/skein/Desktop/project/routes/user.routes.js:5:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  exception: true,
+  date: 'Thu Dec 30 2021 12:00:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7257,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/skein/Desktop/project',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/bin/node', '/home/skein/Desktop/project/bin/www' ],
+    memoryUsage: {
+      rss: 64696320,
+      heapTotal: 22867968,
+      heapUsed: 15507248,
+      external: 3541257,
+      arrayBuffers: 264002
+    }
+  },
+  os: { loadavg: [ 1.25, 1.13, 0.74 ], uptime: 7931.29 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:vm',
+      function: 'Object.compileFunction',
+      line: 352,
+      method: 'compileFunction',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1031,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1065,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/home/skein/Desktop/project/routes/user.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2021-12-30T06:30:41.168Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'FailureMessage')
+      at new SpErrorHandler (/home/skein/Desktop/project/utils/error-handler.js:75:26)
+      at getAllUser (/home/skein/Desktop/project/controllers/user.controller.js:59:7)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'FailureMessage')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'FailureMessage')\n" +
+    '    at new SpErrorHandler (/home/skein/Desktop/project/utils/error-handler.js:75:26)\n' +
+    '    at getAllUser (/home/skein/Desktop/project/controllers/user.controller.js:59:7)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'FailureMessage')\n" +
+    '    at new SpErrorHandler (/home/skein/Desktop/project/utils/error-handler.js:75:26)\n' +
+    '    at getAllUser (/home/skein/Desktop/project/controllers/user.controller.js:59:7)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Thu Dec 30 2021 13:33:14 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10885,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/skein/Desktop/project',
+    execPath: '/usr/bin/node',
+    version: 'v16.13.1',
+    argv: [ '/usr/bin/node', '/home/skein/Desktop/project/bin/www' ],
+    memoryUsage: {
+      rss: 60796928,
+      heapTotal: 17625088,
+      heapUsed: 16368800,
+      external: 1127940,
+      arrayBuffers: 58622
+    }
+  },
+  os: { loadavg: [ 1.43, 1.54, 1.54 ], uptime: 13484.55 },
+  trace: [
+    {
+      column: 26,
+      file: '/home/skein/Desktop/project/utils/error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: '/home/skein/Desktop/project/controllers/user.controller.js',
+      function: 'getAllUser',
+      line: 59,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2021-12-30T08:03:14.437Z'
+}

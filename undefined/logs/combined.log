@@ -1,0 +1,326 @@
+{
+  message: '::1 - - [29/Dec/2021:13:14:50 +0000] "POST /user/register HTTP/1.1" - - "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:14:50.298Z'
+}
+{
+  message: '::1 - - [29/Dec/2021:13:16:35 +0000] "GET /user/register HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:16:35.743Z'
+}
+{
+  message: '::1 - - [29/Dec/2021:13:16:38 +0000] "GET / HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:16:38.921Z'
+}
+{
+  message: '::1 - - [29/Dec/2021:13:16:45 +0000] "POST /user/register HTTP/1.1" - - "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:16:45.557Z'
+}
+{
+  message: '::1 - - [29/Dec/2021:13:28:34 +0000] "POST /user/register HTTP/1.1" - - "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:28:34.572Z'
+}
+{
+  message: "PREPARING INSERT INTO user (role_id,first_name,last_name,phone_no,user_email,password) VALUES (1,'hello','world','8989898989','dominic@gmail.com','Skein@123')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:30:37.336Z'
+}
+{
+  message: "PREPARING INSERT INTO user (role_id,first_name,last_name,phone_no,user_email,password) VALUES (1,'hello','world','8989898989','dominic@gmail.com','Skein@123')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:30:37.339Z'
+}
+{
+  message: '::1 - - [29/Dec/2021:13:30:37 +0000] "POST /user/signup HTTP/1.1" 200 55 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:30:37.427Z'
+}
+{
+  message: "PREPARING INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (NULL,'14a223a005c48ce1c2b455564cebd0e9c8e3aed2fd3b83ae1dd619f7e8c57fcfd5e69d1bc83483dc','2022-01-29 19:02:55','::1')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:32:55.761Z'
+}
+{
+  message: "PREPARING INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (NULL,'14a223a005c48ce1c2b455564cebd0e9c8e3aed2fd3b83ae1dd619f7e8c57fcfd5e69d1bc83483dc','2022-01-29 19:02:55','::1')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:32:55.762Z'
+}
+{
+  message: "Column 'user_id' cannot be null",
+  code: 'ER_BAD_NULL_ERROR',
+  errno: 1048,
+  sql: "INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (NULL,'14a223a005c48ce1c2b455564cebd0e9c8e3aed2fd3b83ae1dd619f7e8c57fcfd5e69d1bc83483dc','2022-01-29 19:02:55','::1')",
+  sqlState: '23000',
+  sqlMessage: "Column 'user_id' cannot be null",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:32:55.766Z'
+}
+{
+  message: "Column 'user_id' cannot be null",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:32:55.769Z'
+}
+{
+  message: "PREPARING INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (NULL,'b82a3c1d97107551f8a7563ec0ed1b5494f39e97aee8e5adad2cd117347c1d843bab97e4884b5517','2022-01-29 19:06:03','::1')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:36:03.259Z'
+}
+{
+  message: "PREPARING INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (NULL,'b82a3c1d97107551f8a7563ec0ed1b5494f39e97aee8e5adad2cd117347c1d843bab97e4884b5517','2022-01-29 19:06:03','::1')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:36:03.263Z'
+}
+{
+  message: "Column 'user_id' cannot be null",
+  code: 'ER_BAD_NULL_ERROR',
+  errno: 1048,
+  sql: "INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (NULL,'b82a3c1d97107551f8a7563ec0ed1b5494f39e97aee8e5adad2cd117347c1d843bab97e4884b5517','2022-01-29 19:06:03','::1')",
+  sqlState: '23000',
+  sqlMessage: "Column 'user_id' cannot be null",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:36:03.266Z'
+}
+{
+  message: "Column 'user_id' cannot be null",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:36:03.270Z'
+}
+{
+  message: "PREPARING INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (NULL,'ea1f0a7d75aa6a35298e7f83ea84bd49bcf470d9c93c344223d1bc37b0449008146f962358b42400','2022-01-29 19:06:51','::1')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:36:51.872Z'
+}
+{
+  message: "PREPARING INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (NULL,'ea1f0a7d75aa6a35298e7f83ea84bd49bcf470d9c93c344223d1bc37b0449008146f962358b42400','2022-01-29 19:06:51','::1')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:36:51.876Z'
+}
+{
+  message: "Column 'user_id' cannot be null",
+  code: 'ER_BAD_NULL_ERROR',
+  errno: 1048,
+  sql: "INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (NULL,'ea1f0a7d75aa6a35298e7f83ea84bd49bcf470d9c93c344223d1bc37b0449008146f962358b42400','2022-01-29 19:06:51','::1')",
+  sqlState: '23000',
+  sqlMessage: "Column 'user_id' cannot be null",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:36:51.879Z'
+}
+{
+  message: "Column 'user_id' cannot be null",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:36:51.882Z'
+}
+{
+  message: "PREPARING INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (1,'a0ecc09499d4374b85a93594bbe3087027723fb8af1178c32a34ffccd8731a8dbb320b545697dd09','2022-01-29 19:12:55','::1')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:42:55.860Z'
+}
+{
+  message: "PREPARING INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (1,'a0ecc09499d4374b85a93594bbe3087027723fb8af1178c32a34ffccd8731a8dbb320b545697dd09','2022-01-29 19:12:55','::1')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:42:55.864Z'
+}
+{
+  message: '::1 - - [29/Dec/2021:13:42:55 +0000] "POST /user/login HTTP/1.1" 200 465 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-29T13:42:55.917Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:06:33:52 +0000] "POST /user/register HTTP/1.1" - - "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:33:52.529Z'
+}
+{
+  message: "PREPARING INSERT INTO user (role_id,first_name,last_name,phone_no,user_email,password) VALUES (4,'Jagadeesan','world','9090909090','jag@gmail.com','Skein@123')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:34:59.910Z'
+}
+{
+  message: "PREPARING INSERT INTO user (role_id,first_name,last_name,phone_no,user_email,password) VALUES (4,'Jagadeesan','world','9090909090','jag@gmail.com','Skein@123')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:34:59.910Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:06:35:00 +0000] "POST /user/signup HTTP/1.1" 200 55 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:35:00.191Z'
+}
+{
+  message: "PREPARING INSERT INTO user (role_id,first_name,last_name,phone_no,user_email,password) VALUES (5,'customerOne','world','9999999999','jaga@gmail.com','Skein@123')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:35:41.025Z'
+}
+{
+  message: "PREPARING INSERT INTO user (role_id,first_name,last_name,phone_no,user_email,password) VALUES (5,'customerOne','world','9999999999','jaga@gmail.com','Skein@123')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:35:41.026Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:06:35:41 +0000] "POST /user/signup HTTP/1.1" 200 55 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:35:41.103Z'
+}
+{
+  message: "PREPARING INSERT INTO user (role_id,first_name,last_name,phone_no,user_email,password) VALUES (2,'Remote_Manager','Bisleri','9999999999','jaga@gmail.com','Skein@123')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:36:23.988Z'
+}
+{
+  message: "PREPARING INSERT INTO user (role_id,first_name,last_name,phone_no,user_email,password) VALUES (2,'Remote_Manager','Bisleri','9999999999','jaga@gmail.com','Skein@123')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:36:23.989Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:06:36:24 +0000] "POST /user/signup HTTP/1.1" 200 55 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:36:24.036Z'
+}
+{
+  message: "PREPARING INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (1,'37dc7c3547855a98686f78e080a7de4b9d1afc40511edc6112b4e51f6ec1773a8be330f347efc8ec','2022-01-30 12:06:31','::1')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:36:31.457Z'
+}
+{
+  message: "PREPARING INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (1,'37dc7c3547855a98686f78e080a7de4b9d1afc40511edc6112b4e51f6ec1773a8be330f347efc8ec','2022-01-30 12:06:31','::1')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:36:31.458Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:06:36:31 +0000] "POST /user/login HTTP/1.1" 200 465 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T06:36:31.508Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:07:54:53 +0000] "GET /user/users HTTP/1.1" 401 41 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T07:54:53.504Z'
+}
+{
+  message: "PREPARING INSERT INTO user (role_id,first_name,last_name,phone_no,user_email,password) VALUES (1,'Thalaivar','Rajini','8989898989','Skein@gmail.com','Skein@123')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T07:58:58.204Z'
+}
+{
+  message: "PREPARING INSERT INTO user (role_id,first_name,last_name,phone_no,user_email,password) VALUES (1,'Thalaivar','Rajini','8989898989','Skein@gmail.com','Skein@123')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T07:58:58.205Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:07:58:58 +0000] "POST /user/signup HTTP/1.1" 200 55 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T07:58:58.295Z'
+}
+{
+  message: "PREPARING INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (1,'a89cf7c6f4afe20fb1add80d547f007abc894cd8a761c7014caab06759c6b97f2c72abebc7affb48','2022-01-30 13:29:16','::1')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T07:59:16.367Z'
+}
+{
+  message: "PREPARING INSERT INTO refresh_tokens (user_id,token,expires,createdByIp) VALUES (1,'a89cf7c6f4afe20fb1add80d547f007abc894cd8a761c7014caab06759c6b97f2c72abebc7affb48','2022-01-30 13:29:16','::1')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T07:59:16.370Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:07:59:16 +0000] "POST /user/login HTTP/1.1" 200 462 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T07:59:16.419Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:08:00:06 +0000] "GET /user/users HTTP/1.1" 401 41 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T08:00:06.706Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:08:00:18 +0000] "GET /user/users HTTP/1.1" 401 41 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T08:00:18.235Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:08:01:46 +0000] "GET /user/users HTTP/1.1" 401 41 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T08:01:46.030Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:08:01:48 +0000] "GET /user/users HTTP/1.1" 401 41 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T08:01:48.180Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:08:02:32 +0000] "GET /user/users/ HTTP/1.1" 200 104 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T08:02:32.098Z'
+}
+{
+  message: "Unknown column 'name' in 'order clause'",
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sql: 'select * from user ORDER BY name',
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'name' in 'order clause'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T08:03:14.427Z'
+}
+{
+  message: "Unknown column 'name' in 'order clause'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T08:03:14.429Z'
+}
+{
+  message: '::1 - - [30/Dec/2021:08:07:03 +0000] "GET /user/users/ HTTP/1.1" 200 222 "-" "PostmanRuntime/7.28.4"\n',
+  level: 'info',
+  label: undefined,
+  timestamp: '2021-12-30T08:07:03.869Z'
+}
